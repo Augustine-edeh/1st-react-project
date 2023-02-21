@@ -1,0 +1,7 @@
+.main-container {
+  display: grid;
+  place-content: center;
+  background: navajowhite;
+  height: 30rem;
+  width: 55rem;
+}
