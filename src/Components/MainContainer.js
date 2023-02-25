@@ -1,12 +1,10 @@
 import "./MainContainer.css";
-import Time from "./Time";
-import Date from "./Date";
-function MainContainer() {
+function MainContainer(props) {
+  const classes = "main " + props.className;
   return (
-    <main className="main-container">
+    <main className={classes}>
       <h1>I'm the Main Container Component!</h1>
-      <Time />
-      <Date />
+      {props.children}
     </main>
   );
 }

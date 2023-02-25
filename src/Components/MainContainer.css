@@ -1,11 +1,14 @@
-.main-container {
+.main {
   display: grid;
   place-content: center;
-  background: transparent;
+  background: yellow;
   height: 30rem;
   width: 55rem;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   text-align: center;
   box-shadow: 3px 10px 30px rgba(0, 0, 0, 0.3), -3px 10px 30px #fff,
     3px 10px 30px rgba(0, 0, 0, 0.3), -3px -10px 30px #fff;
+}
+.overall-container {
+  color: #fff;
 }
